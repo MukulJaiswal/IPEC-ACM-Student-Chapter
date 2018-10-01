@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>IPEC ACM | TECHNICAL SOCIETY</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1,maximum-scale=1, user-scalable=no">
+        <meta name="theme-color" content="#2A2F34" />
+        <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16"> 
+        <link rel="shortcut icon" href="img/logo.png"> 
+		
+		<!-- ACM CSS! -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+		
+        <!-- Libraries !-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css' rel='stylesheet'/>		
+  
+
+        <style type="text/css">            
+            #social_side_links li a img
+             {
+            margin-top: -20px;
+                }
+</style>
+</head>
+<body>
+  <img class="image" src="images/newback.jpg">  
+
+<!--<div class="fullscreen-bg">
+    <video loop muted autoplay poster="back.png" class="fullscreen-bg__video">    
+        <source src="test2.mp4" type="video/mp4">     
+    </video>
+</div> -->
+
+ 	<!--Menu!-->
+	<!-- SpanBars!-->
+ 	<div id="header">
+            <span id="head1" style="margin: 20px;float:left;font-size:28px; color:rgba(255,255,255,1); cursor:pointer; " onclick="openNav()">&#9776;MENU</span>
+             <span id="head2" style="margin: 20px;float:left;font-size:28px; color: white; cursor:pointer; " onclick="openNav()">&#9776;</span>
+        </div>
+		<!-- SpanBars Closed!-->
+		
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" class="effect-underline">HOME</a> 
+            <a href="about.html" class="effect-underline">ABOUT</a>
+            <a href="team.html" class="effect-underline">TEAM</a>
+            <a href="event.html" class="effect-underline">EVENTS</a>		  
+            <a href="sig.html" class="effect-underline">SIG'S</a>
+            <a href="tuts.html" class="effect-underline">ACADEMICS</a>
+      <!--      <a href="alumni.html" class="effect-underline">ALUMNI</a>
+            <a href="notice.html" class="effect-underline">NOTICE</a> -->
+            <a href="pdf/Magazine.pdf" target="new" class="effect-underline">MAGAZINE</a><br>
+            <div class="display:inline !important">
+            <a class="social" href="https://www.facebook.com/IpecACM/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a class="social" href="https://www.instagram.com/ipec_acm_chapter/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a class="social" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+            </div>
+
+        </div>
+        <!--Menubar closed!-->
+        
+		<!--Main Content!-->
+		<!-- divcontent is black overlay!-->
+        <div class="container" id="divcontent">
+ 
+<!--Floating social icons!-->
+<div class="floatsocial">
+        <ul id="social_side_links">
+            <li><a href="https://www.facebook.com/IpecACM/" target="_blank" class="floatFb"><img src="images/logofb.png"/></a></li>
+            <li><a href="https://www.instagram.com/ipec_acm_chapter/" target="_blank" class="floatInsta"><img src="images/logoinsta.png"/></a></li>          
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" class="floatGmail"><img src="images/logogmail.png"/></a></li>
+        </ul>
+</div>
+<!--Floating social icons closed!-->
+            
+			<center>
+                <div  class="main">
+                    <img id="acmlogo" src="img/logo.png" alt="logo" >
+                    <h1>IPEC ACM CHAPTER</h1>
+                    <span id="technical_society">&mdash; TECHNICAL SOCIETY &mdash;</span>
+                    <p id="para_content">Association for Computing Machinery (ACM) is an international learned society for computing. It was founded in 1947 and is the world's largest scientific and educational computing society.</p>
+                    <p id="quote" style="font-size: 14px; text-align: right;" ><br>&quot;For the Students, By the Students&quot;</p><br>
+                    
+					<!-- New Register Link Here!-->
+					                  
+                </div>
+		    </center> 	
+        </div>
+
+<!-- MenuBar Functioning !-->
+         <script>
+        function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+                document.getElementById('header').style.display = "none";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById('header').style.display = "inline";
+            }          
+        </script>
+		
+<!-- JavaScript Libraries !-->
+        <script src="js/back.js"></script>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'/>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+ </body>
+ </html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>IPEC ACM | TECHNICAL SOCIETY</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="css/pop.css">
+	<link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+	
+	<style>
+
+	 .social {
+    display: inline-block !important;
+}
+	
+	.para,.sub {	
+	font-size:20px;
+	color:white;
+        }
+        .head1 {	
+	text-align:center;
+	text-decoration: underline;
+	color:white;
+	font-size:40px;
+	}
+        .sub {
+	font-size:20px;
+	}
+        </style>
+    </head>
+    <body>
+	<img class="image" src="images/newback.jpg">
+
+<!--<div class="fullscreen-bg">
+    <video loop muted autoplay poster="back.png" class="fullscreen-bg__video">
+       
+        <source src="test2.mp4" type="video/mp4">
+       
+    </video>
+</div> -->
+
+        <!--Floating social icons!-->
+
+       <ul id="social_side_links">
+            <li><a href="https://www.facebook.com/IpecACM/" target="_blank" class="floatFb"><img src="images/logofb.png"/></a></li>
+            <li><a href="https://www.instagram.com/ipec_acm_chapter/" target="_blank" class="floatInsta"><img src="images/logoinsta.png"/></a></li>
+            
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" class="floatGmail"><img src="images/logogmail.png"/></a></li>
+        </ul>
+
+
+        <!--Floating social icons closed!-->
+        <div class="header">
+            <span id="head1" style="margin: 20px;float:left;font-size:28px; color:white; cursor:pointer; position:fixed; z-index: 5" onclick="openNav()">&#9776;MENU</span>
+            <span id="head2" style="margin: 20px;float:left;font-size:28px; color:white; cursor:pointer; position:fixed; z-index: 5" onclick="openNav()">&#9776;</span>
+             
+        </div>
+        <br>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html" class="effect-underline">HOME</a>
+          <a href="about.html" class="effect-underline">ABOUT</a>
+          <a href="team.html" class="effect-underline">TEAM</a>
+          <a href="event.html" class="effect-underline">EVENTS</a>
+          <a href="sig.html" class="effect-underline">SIG'S</a>
+		  <a href="tuts.html" class="effect-underline">ACADEMICS</a>
+         <!-- <a href="alumni.html" class="effect-underline">ALUMNI</a>
+          <a href="notice.html" class="effect-underline">NOTICE</a> -->
+            <a href="pdf/Magazine.pdf" target="new" class="effect-underline">MAGAZINE</a><br>
+          <div style="display: inline-block;">
+             <a class="social" href="https://www.facebook.com/IpecACM/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a class="social" href="https://www.instagram.com/ipec_acm_chapter/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a class="social" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+		   </div>
+        </div>
+
+        <div id="divcontent">
+        <div class="container">
+                 <br><br>
+                <h1 style="text-align:center;color: white;font-size: 50px;">SIG'S</h1>
+               
+
+
+            <section class="content" style="padding:0%;">
+            <div class="grid1 grid--effect-hamal">
+			 <a href="#popup1" class="grid__item grid__item--c3">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <img class="stack__img" src="images/Web.jpg" style="max-width: 130%" alt="Image"/>
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <h3>SIG WEB</h3>
+                    </div>
+                </a>
+                <a href="#popup5" class="grid__item grid__item--c2">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <img class="stack__img" src="images/Plan.jpg" style="max-width: 130%" alt="Image"/>
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <h3>SIG PLAN</h3>
+                    </div>
+                </a>
+                <a href="#popup2" class="grid__item grid__item--c4">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <img class="stack__img" src="images/soft.png" style="max-width: 130%" alt="Image"/>
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <h3>SIG SOFT</h3>
+                    </div>
+                </a>
+                <a href="#popup3" class="grid__item grid__item--c5">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <img class="stack__img" src="images/tech.png" style="max-width: 130%" alt="Image"/>
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <h3>SIG TECH</h3>
+                    </div>
+                </a>
+				 <a href="#popup6" class="grid__item grid__item--c1">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <img class="stack__img" src="images/Graphics.jpg" style="max-width: 130%"  alt="Image"/>
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <h3>SIG GRAPHICS</h3>
+                    </div>
+                </a>
+                <a href="#popup4" class="grid__item grid__item--c6">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <img class="stack__img" src="images/foundation.png" style="max-width: 130%" alt="Image"/>
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <h3>SIG FOUNDATION</h3>
+                    </div>
+                </a>
+            </div>
+	</section>
+	
+	<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2 style="color: #6be2cb">SIG WEB</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="con">
+          <p class="para">SIGWEB is one of the Special Groups of the Association for Computing Machinery.It welcomes members concerned with the WWW as well as those concerned with other aspects of hypertext and hypermedia.
+		  SIG offer a wealth of publications, conferences and resurce archives covering a broad spectrum of technical expertise.</p> 
+			<br>
+			<center>
+			<img class="img" src="img/aman.jpg" alt="Sigs" style="width:150px;height:150px;">
+<br>
+<h1 class="sub">SIG Head: Aman Verma</h1>
+			
+<button type="button" class="btn btn-default"  onClick="window.open('pdf/web.pdf');">TASKS</button>
+</center>
+<h2 style="color: #6be2cb">AIM:</h2>
+<p class="para">Learning all new technologies  & coding languages used to make & maintain websites.
+</p>
+<br>
+<h2 style="color: #6be2cb">What do we learn?</h2>
+<p class="para">Coding on HTML, CSS, JavaScript, SQL, PHP, bootstrap, etc.
+<br>
+Building your own  complete website (both frontend & backend).
+</p>
+</div>
+
+</div>
+</div>
+
+
+<div id="popup2" class="overlay">
+	<div class="popup">
+		<h2 style="color: #aecc4e">SIG SOFT</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="con">
+         <p class="para">It's objective is to educate on platform specific programming and deal with all issues related to software development such as specifications, design, UI, debugging, maintenance and learning core Java concepts, XML and all about Android Environment.</p>
+			<br>
+			<center>
+			<div class="row">
+			<div class="col-xs-12">
+			<img class="img" src="img/pooja.jpg" alt="Sigs" style="width:150px;height:150px;">
+<br>
+<h1 class="sub">SIG Head: Pooja Basak</h1>
+</div>
+</div>
+<button type="button" class="btn btn-default"  onClick="window.open('pdf/soft.pdf');">TASKS</button>
+</center>
+<h2 style="color: #aecc4e">AIM:</h2>
+<p class="para">Learning the skills required to become an Android Developer.
+</p>
+<br>
+<h2 style="color: #aecc4e">What do we learn?</h2>
+<p class="para">Learning java(core), concepts of oops, basic use of XML, android environment.
+<br>
+Making your own android App, & studying different UI’s etc.
+</p>
+</div>
+</div>
+</div>
+
+<div id="popup3" class="overlay">
+	<div class="popup">
+		<h2 style="color: #c46bc5">SIG TECH</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="con">
+			<p class="para">The aim of the SIG Tech is to set up a computer environment in the minds of the computer science and IT students by making them aware of their computer system and the computer environment around them.</p>
+			<br>
+			<center>
+			<img class="img" src="img/saurav.jpg" alt="Sigs" style="width:150px;height:150px;">
+<br>
+<h1 class="sub">SIG Head: Saurav Gupta</h1>
+<button type="button" class="btn btn-default"   onClick="window.open('pdf/tech.pdf');">TASKS</button>
+</center>
+<h2 style="color: #c46bc5">AIM:</h2>
+<p class="para">Learning the skills required for better understanding of computer architecture and software.
+</p>
+<br>
+<h2 style="color: #c46bc5">What do we learn?</h2>
+<p class="para">Working of Ram.
+<br>Google Search Algorithm.
+<br>
+CPU Core System.
+<br>
+Data Flow in Computer.
+<br>
+Action Center.
+<br>
+File System (Deletion and Recovery of File).
+</p>
+</div>
+</div>
+</div>
+
+<div id="popup4" class="overlay">
+	<div class="popup">
+		<h2 style="color: #dbac1d">SIG FOUNDATION</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="con">
+		<p class="para">SIG FOUNDATION aims to strengthen the basic concepts of C Language with an efficient task oriented tenure to clarify these taught concepts practically.</p>
+			<br>
+			<center>
+			<div class="row">
+			<div class="col-xs-6">
+			<img class="img" src="img/tavishi.jpg" alt="Sigs" style="width:150px;height:150px;">
+<br>
+<h1 class="sub">SIG Head: Tavishi Pandey</h1>
+</div>
+<div class="col-xs-6">
+			<img class="img" src="img/mukul.jpg" alt="Sigs" style="width:150px;height:150px;">
+<br>
+<h1 class="sub" >SIG Head: Mukul Jaiswal</h1>
+</div>
+</div>
+<button type="button" class="btn btn-default"  onClick="window.open('pdf/foundation.pdf');">TASKS</button>
+</center>
+<h2 style="color: #dbac1d">AIM:</h2>
+<p class="para"> Learning new techniques and concepts to solve real time world problems via coding.
+</p>
+<br>
+<h2 style="color: #dbac1d">What do we learn?</h2>
+<p class="para">
+C programming, Data Structures,  Basic Concepts of C language,Compilation of programs through Turbo C and GCC compiler.
+</p>
+</div>
+</div>
+</div>
+
+<div id="popup5" class="overlay">
+	<div class="popup">
+		<h2 style="color:#3e7dff">SIG PLAN</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="con">
+         <p class="para">SIGPLAN is a Special Interest Group of ACM that focuses on programming Languages. In particular, SIGPLAN explores the design, implementation, theory, and efficient use of programming languages and associated tools.Its members are programminng language users, developers,implementers, theoreticians, researchers and educators.</p>
+			<br>
+			<center>
+			<img class="img" src="img/akshay.jpg" alt="Sigs" style="width:150px;height:150px;">
+<br>
+<h1 class="sub">SIG Head: Akshay Sachan</h1>
+<button type="button" class="btn btn-default"  onClick="window.open('pdf/plan.pdf');">TASKS</button>
+</center>
+<h2 style="color:#3e7dff">AIM:</h2>
+<p class="para"> Learning new techniques and concepts to solve real time world problems via coding.
+</p>
+<br>
+<h2 style="color:#3e7dff">What do we learn?</h2>
+<p class="para">Programming languages that are currently used in the development and technology.
+<br>
+Working on languages like java, C++, complete concepts of oops programing & constructing algos.
+</p>
+</div>
+</div>
+</div>
+
+<div id="popup6" class="overlay">
+	<div class="popup">
+		<h2 style="color: #6bc6c3">SIG GRAPHICS</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="con">
+			<p class="para">SIGGRAPH is an international membership organization made up of thousands of people who share a passion for computer graphics and interactive techniques.SIGGRAPH members are involved in a wide variety of fields, including computer graphics research, software development, digital art, scientific visualization and more.It is considered as the most prestigious forum for the publication of computer graphics research.</p>
+			<br>
+		<center>	<img class="img" src="img/nitika.jpg" alt="Sigs" style="width:150px;height:150px;">
+<br>
+<h1 class="sub">SIG Head: Nitika Gupta</h1>
+<button type="button" class="btn btn-default"  onClick="window.open('pdf/graph.pdf');">TASKS</button>
+</center>
+<h2 style="color: #6bc6c3">AIM:</h2>
+<p class="para">Learning use of professional softwares for designing and research on designs.
+</p>
+<br>
+<h2 style="color: #6bc6c3">What do we learn?</h2>
+<p class="para">Working on professional softwares like corel draw, adobe photoshop etc.
+<br>
+Designing different logos, abstract designs, poster making, designing characters & many more…
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+	<script src="js/anime.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		(function() {
+			[].slice.call(document.querySelectorAll('.grid--effect-hamal > .grid__item')).forEach(function(stackEl) {
+				new HamalFx(stackEl);
+			});
+		})();
+	</script>
+        <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>               
+    </body>
+</html>

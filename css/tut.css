@@ -1,0 +1,128 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.snip1110 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height:280px;
+  background: #000000;
+  text-align: left;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1110 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.snip1110 img {
+  max-width: 100%;
+  position: relative;
+  height : 280px;
+  width : 200px;
+  
+}
+figure.snip1110 figcaption {
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 20px;
+  right: 40%;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+  opacity: 0;
+}
+figure.snip1110 h3 {
+  color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-bottom: 1px solid #ddd;
+  padding: 7px;
+}
+figure.snip1110 h3 span {
+  font-weight: 800;
+}
+figure.snip1110 p {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+figure.snip1110:after {
+  background: #000000;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  left: -40px;
+  top: 0;
+  content: '';
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 100%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+figure.snip1110 a {
+  left: 0;
+  right: 0;
+  background-color: #150547;
+  color : white;
+  border-style: outset;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+figure.snip1110.blue h3 {
+  color: #1b557a;
+}
+figure.snip1110.blue:after {
+  background-color: #0a212f;
+}
+figure.snip1110.red h3 {
+  color: #81261d;
+}
+figure.snip1110.red:after {
+  background-color: #36100c;
+}
+figure.snip1110.yellow h3 {
+  color: #b06f09;
+}
+figure.snip1110.yellow:after {
+  background-color: #583804;
+}
+figure.snip1110.green h3 {
+  color: #19703e;
+}
+figure.snip1110.green:after {
+  background-color: #082514;
+}
+figure.snip1110.navy h3 {
+  color: #19232d;
+}
+figure.snip1110.navy:after {
+  background-color: #000000;
+}
+figure.snip1110:hover img,
+figure.snip1110.hover img {
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+}
+figure.snip1110:hover:after,
+figure.snip1110.hover:after {
+  left: 0;
+}
+figure.snip1110:hover figcaption,
+figure.snip1110.hover figcaption {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+}
